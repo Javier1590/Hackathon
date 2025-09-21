@@ -1,0 +1,17 @@
+@import './base.css';
+@import "tailwindcss";
+
+.btn-primary {
+  background-color: var(--color-primary);
+}
+.btn-primary:hover {
+  background-color: var(--color-secondary);
+}
+.cont-especialidades {
+  background-color: var(--color-grisClaro);
+  border-right: 1px solid var(--color-border);
+}
+.btn-spe {
+  background-color: var(--color-asulito);
+  color: white;
+}
