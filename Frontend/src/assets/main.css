@@ -1,9 +1,7 @@
 @import './base.css';
 @import "tailwindcss";
 
-.btn-primary {
-  background-color: var(--color-primary);
-}
+
 .btn-primary:hover {
   background-color: var(--color-secondary);
 }
@@ -12,6 +10,31 @@
   border-right: 1px solid var(--color-border);
 }
 .btn-spe {
+  color: black;
+}
+.btn-spe:hover {
   background-color: var(--color-asulito);
   color: white;
+  border-radius: 10px;
+  transition: all 0.6s ;
+  transform: translateX(7px);
+}
+.cont-login{
+  background: linear-gradient(
+    to right,
+    var(--color-secondary),
+    var(--color-background)
+  );
+}
+.cont-principal {
+  background: linear-gradient(
+    to right,
+    var(--color-background),
+    var(--color-secondary)
+  );
+}
+
+
+.encabezado, footer{
+  background: #0A999D;  
 }
